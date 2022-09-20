@@ -1,0 +1,5 @@
+./runShowerSimAnalysis /media/heimarry/Expansion/tb2022-data/simulations/2022-06-28_PS2022 001GeV 0
+./runShowerSimAnalysis /media/heimarry/Expansion/tb2022-data/simulations/2022-06-28_PS2022 002GeV 1
+./runShowerSimAnalysis /media/heimarry/Expansion/tb2022-data/simulations/2022-06-28_PS2022 003GeV 2
+./runShowerSimAnalysis /media/heimarry/Expansion/tb2022-data/simulations/2022-06-28_PS2022 004GeV 3
+./runShowerSimAnalysis /media/heimarry/Expansion/tb2022-data/simulations/2022-06-28_PS2022 005GeV 4

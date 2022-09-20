@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cmd="root -b -q 'src/Reconstruct.C(0)'"
+eval $cmd
+cmd="root -b -q 'src/Reconstruct.C(1)'"
+eval $cmd
+cmd="root -b -q 'src/Reconstruct.C(2)'"
+eval $cmd
+cmd="root -b -q 'src/Reconstruct.C(3)'"
+eval $cmd
+cmd="root -b -q 'src/Reconstruct.C(4)'"
+eval $cmd

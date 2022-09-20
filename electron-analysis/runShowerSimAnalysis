@@ -1,0 +1,26 @@
+#!/bin/bash
+SECONDS=0
+
+indir=${1} # directory where input is
+energy=${2} # energy directory (020GeV, 040GeV etc)
+iset=${3}
+
+# save file names from indir to array 'inelectron'
+declare -a inelectron
+for file in ${indir}/e-/${energy}/*/hits.root
+do
+    inelectron=(${inelectron[@]} "$file")
+done
+
+nfiles=${#inelectron[@]}
+
+# Run the analysis macro over the files
+for (( i=0; i<$nfiles; i++ ))
+#for (( i=0; i<10; i++ ))
+do
+    cmd="root -b -q 'src/SimulatedShowerDist.C(\"${inelectron[i]}\", \"${energy}\", ${iset})'"
+    eval $cmd
+done
+
+duration=$SECONDS
+echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."
