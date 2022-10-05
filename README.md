@@ -1,6 +1,9 @@
 # 2022PS_pad-analysis
 Codes used to analyse data from 2022 PS test beam for FoCal-E pad layers.
 
+## Voltage scan analysis
+The plotting macro (PlotVoltageScan.C) does the fitting to the voltage scan data (produced with MIP analysis macros) and makes relevant plots.
+
 ## Electron beam analysis
 Codes for electron beam data are included in elecron-analysis
 

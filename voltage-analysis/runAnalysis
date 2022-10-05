@@ -1,0 +1,19 @@
+#!/bin/bash
+
+SECONDS=0
+
+indir=${1}       # directory where input is
+outfile=${2}     # output file name
+pedfile=${3}     # pedestal file name
+saverawdata=${4} # if 1 save data without subtractions
+
+if [ -z "$saverawdata" ]
+then
+    saverawdata=0
+fi
+
+cmd="root -b -q '../mip-analysis/src/AnalyseMIP.C(\"${indir}\", \"$outfile\", \"$pedfile\", $saverawdata)'"
+eval $cmd
+
+duration=$SECONDS
+echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."

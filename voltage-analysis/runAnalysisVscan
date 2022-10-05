@@ -1,0 +1,15 @@
+# VOLTAGE SCAN
+./runAnalysis voltage_data/2022-06-11-07-55-53 voltage_data/2022-06-11-07-55-53/nopedcmn_v2.root vscan_pedestals/Pedestals_0.txt
+./runAnalysis voltage_data/2022-06-11-02-54-23 voltage_data/2022-06-11-02-54-23/nopedcmn_v2.root vscan_pedestals/Pedestals_1.txt
+./runAnalysis voltage_data/2022-06-11-03-26-05 voltage_data/2022-06-11-03-26-05/nopedcmn_v2.root vscan_pedestals/Pedestals_2.txt
+./runAnalysis voltage_data/2022-06-11-03-50-16 voltage_data/2022-06-11-03-50-16/nopedcmn_v2.root vscan_pedestals/Pedestals_3.txt
+./runAnalysis voltage_data/2022-06-11-04-14-16 voltage_data/2022-06-11-04-14-16/nopedcmn_v2.root vscan_pedestals/Pedestals_4.txt
+./runAnalysis voltage_data/2022-06-11-04-37-50 voltage_data/2022-06-11-04-37-50/nopedcmn_v2.root vscan_pedestals/Pedestals_5.txt
+./runAnalysis voltage_data/2022-06-11-05-00-49 voltage_data/2022-06-11-05-00-49/nopedcmn_v2.root vscan_pedestals/Pedestals_6.txt
+./runAnalysis voltage_data/2022-06-11-05-24-23 voltage_data/2022-06-11-05-24-23/nopedcmn_v2.root vscan_pedestals/Pedestals_7.txt
+./runAnalysis voltage_data/2022-06-11-05-49-01 voltage_data/2022-06-11-05-49-01/nopedcmn_v2.root vscan_pedestals/Pedestals_8.txt
+./runAnalysis voltage_data/2022-06-11-06-12-52 voltage_data/2022-06-11-06-12-52/nopedcmn_v2.root vscan_pedestals/Pedestals_9.txt
+./runAnalysis voltage_data/2022-06-11-06-37-01 voltage_data/2022-06-11-06-37-01/nopedcmn_v2.root vscan_pedestals/Pedestals_10.txt
+./runAnalysis voltage_data/2022-06-11-07-03-26 voltage_data/2022-06-11-07-03-26/nopedcmn_v2.root vscan_pedestals/Pedestals_11.txt
+./runAnalysis voltage_data/2022-06-11-07-27-46 voltage_data/2022-06-11-07-27-46/nopedcmn_v2.root vscan_pedestals/Pedestals_12.txt
+./runAnalysis voltage_data/2022-06-10-16-27-59 voltage_data/2022-06-10-16-27-59/nopedcmn_v2.root vscan_pedestals/Pedestals_13.txt
